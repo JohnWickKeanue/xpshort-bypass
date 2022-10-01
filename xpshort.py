@@ -8,7 +8,7 @@ url = "https://techymozo.com/hgSq9"  #@param {type:"string"}
 
 
 
-
+# leech with credits broo
 # ---------------------------------------------------------------------------------------------------------------------
 
 def bypass(url):
