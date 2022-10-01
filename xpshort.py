@@ -23,7 +23,7 @@ def bypass(url):
     
     final_url = f"{DOMAIN}/{code}"
     
-    r = client.get(url,timeout=5)
+    r = client.get(url)
 
     ref = re.findall("action[ ]{0,}=[ ]{0,}['|\"](.*?)['|\"]", r.text)[0]
 
