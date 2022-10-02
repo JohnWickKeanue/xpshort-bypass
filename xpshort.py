@@ -6,12 +6,15 @@ print("Everything Looks Good! Lets Continue.")
 
 url = "https://techymozo.com/hgSq9"  #@param {type:"string"}
 
-
+#Ex:- https://xpshort.com/hgSq9
 
 # leech with credits broo
 # ---------------------------------------------------------------------------------------------------------------------
 
-def bypass(url):
+def xpshort(url):
+    """ Xpshort.com bypass link generator
+    Based on https://github.com/JohnWickKeanue/xpshort-bypass"""
+     
     client = cloudscraper.create_scraper(allow_brotli=False)
     
     
@@ -47,4 +50,4 @@ def bypass(url):
     except: return "Something went wrong :("
     
 # ---------------------------------------------------------------------------------------------------------------------
-print(bypass(url))
+print(xpshort(url))
