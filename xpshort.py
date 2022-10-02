@@ -6,7 +6,9 @@ print("Everything Looks Good! Lets Continue.")
 
 url = "https://techymozo.com/hgSq9"  #@param {type:"string"}
 
+#support all domains in xpshort
 #Ex:- https://xpshort.com/sJjAlGL
+#Ex:- https://push.bdnewsx.com/sJjAlGL
 
 # leech with credits broo
 # ---------------------------------------------------------------------------------------------------------------------
