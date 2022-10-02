@@ -6,7 +6,7 @@ print("Everything Looks Good! Lets Continue.")
 
 url = "https://techymozo.com/hgSq9"  #@param {type:"string"}
 
-#Ex:- https://xpshort.com/hgSq9
+#Ex:- https://xpshort.com/sJjAlGL
 
 # leech with credits broo
 # ---------------------------------------------------------------------------------------------------------------------
