@@ -28,19 +28,16 @@ def xpshort(url):
     
     final_url = f"{DOMAIN}/{code}"
     
-    r = client.get(url)
-
-    ref = re.findall("action[ ]{0,}=[ ]{0,}['|\"](.*?)['|\"]", r.text)[0]
-
-    h = {'referer': ref}
-
-    resp = client.get(final_url,headers = h)
+    ref = "https://techrfour.com/"
+    
+    h = {"referer": ref}
+  
+    resp = client.get(final_url,headers=h)
     
     soup = BeautifulSoup(resp.content, "html.parser")
     
-    try: inputs = soup.find(id="go-link").find_all(name="input")
-    except: return "Incorrect Link"
-    
+    inputs = soup.find_all("input")
+   
     data = { input.get('name'): input.get('value') for input in inputs }
 
     h = { "x-requested-with": "XMLHttpRequest" }
