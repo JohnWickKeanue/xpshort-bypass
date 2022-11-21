@@ -20,7 +20,7 @@ def xpshort(url):
     client = cloudscraper.create_scraper(allow_brotli=False)
     
     
-    DOMAIN = "https://push.bdnewsx.com"
+    DOMAIN = "https://xpshort.com"
 
     url = url[:-1] if url[-1] == '/' else url
 
@@ -28,7 +28,7 @@ def xpshort(url):
     
     final_url = f"{DOMAIN}/{code}"
     
-    ref = "https://techrfour.com/"
+    ref = "https://m.kongutoday.com"
     
     h = {"referer": ref}
   
