@@ -1,3 +1,5 @@
+! pip install cloudscraper
+
 import re
 import time
 import cloudscraper
@@ -20,7 +22,7 @@ def xpshort(url):
     client = cloudscraper.create_scraper(allow_brotli=False)
     
     
-    DOMAIN = "https://xpshort.com"
+    DOMAIN = "https://push.bdnewsx.com"
 
     url = url[:-1] if url[-1] == '/' else url
 
@@ -28,7 +30,7 @@ def xpshort(url):
     
     final_url = f"{DOMAIN}/{code}"
     
-    ref = "https://m.kongutoday.com"
+    ref = "https://permanentt.in/"
     
     h = {"referer": ref}
   
