@@ -1,4 +1,4 @@
-! pip install cloudscraper
+
 
 import re
 import time
