@@ -1,8 +1,6 @@
 
-
-import re
 import time
-import cloudscraper
+import requests
 from bs4 import BeautifulSoup 
 print("Everything Looks Good! Lets Continue.")
 
@@ -19,7 +17,7 @@ def xpshort(url):
     """ Xpshort.com bypass link generator
     Based on https://github.com/JohnWickKeanue/xpshort-bypass"""
      
-    client = cloudscraper.create_scraper(allow_brotli=False)
+    client = requests.session()
     
     
     DOMAIN = "https://push.bdnewsx.com"
@@ -30,7 +28,7 @@ def xpshort(url):
     
     final_url = f"{DOMAIN}/{code}"
     
-    ref = "https://permanentt.in/"
+    ref = "https://techrfour.com/"
     
     h = {"referer": ref}
   
