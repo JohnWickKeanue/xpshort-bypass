@@ -20,7 +20,7 @@ def xpshort(url):
     client = requests.session()
     
     
-    DOMAIN = "https://push.bdnewsx.com"
+    DOMAIN = "https://xpshort.com"
 
     url = url[:-1] if url[-1] == '/' else url
 
@@ -28,7 +28,7 @@ def xpshort(url):
     
     final_url = f"{DOMAIN}/{code}"
     
-    ref = "https://techrfour.com/"
+    ref = "https://www.jankarihoga.com/"
     
     h = {"referer": ref}
   
